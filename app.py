@@ -3,8 +3,8 @@ import numpy as np
 import streamlit as st
 from pyzbar.pyzbar import decode
 from PIL import Image
-import pandas as pd
 import re  # Para validação de padrão
+import pandas as pd
 
 def detect_barcode(frame):
     """Detecta códigos de barras na imagem fornecida e retorna uma lista com as informações dos códigos de barras."""
